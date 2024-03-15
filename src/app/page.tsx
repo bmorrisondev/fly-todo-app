@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="text-lg bold mb-4">Next Task</h1>
+      <h1 className="text-lg bold mb-4">Next Todos</h1>
       <div className="flex justify-center mb-4 gap-2 w-full">
         <form onSubmit={addTask}></form>
         <input
